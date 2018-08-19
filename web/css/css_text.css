@@ -1,0 +1,33 @@
+.ul_center li {
+    text-align: center;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.div_li_hover {
+    padding: 0;
+    width: 220px;
+    text-align: center;
+    transition: width 1s;
+}
+
+.div_li_hover:hover {
+    width: 260px;
+}
+
+.img_info {
+    transition: transform 1.5s;
+}
+
+.img_info:hover {
+
+    transform: scale(1.1);
+}
+
+#ul_list li a {
+    text-decoration: none;
+    transition: color 1s;
+}
+#ul_list li:hover a {
+    color: yellow;
+}
